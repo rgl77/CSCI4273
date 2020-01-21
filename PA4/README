@@ -1,0 +1,30 @@
+DFS
+---
+dfs.c should be in folders where it can create files within.
+
+Use the following code to run it:
+gcc -w -o dfs dfs.c
+./dfs <Server_Name> <port_number>
+
+Server name varies : DFS1 - 4
+Port numbers : 10001-10004
+
+If there's no folder for the user, then DFS will mkdir for that user under theirusername.
+
+DFC
+---
+Use the following code to run it:
+gcc -w -o dfc dfc.c
+./dfc dfc.conf
+
+-It will establish connection with 4 servers and communicate with them over time.
+
+
+
+File Tree:
+/DFS1/dfs.c
+/DFS2/dfs.c
+/DFS3/dfs.c
+/DFS4.dfs.c
+/dfc.c
+
